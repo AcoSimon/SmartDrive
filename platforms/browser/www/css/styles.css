@@ -1,0 +1,231 @@
+/*[Clases]======================================================================[Index]*/
+.statusbar-overlay {
+    background: white;
+}
+/*----------------------------------------------------------------------------*/
+body{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+/*----------------------------------------------------------------------------*/
+hr{
+  opacity: 0.8px;
+}
+/*----------------------------------------------------------------------------*/
+.sizeBackground{ /*  Escalar tamaño de fondo de pantalla: */
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+/*----------------------------------------------------------------------------*/
+.sizeImageLogo{ /*  Tamaño de logo: */
+  margin-top: 8%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 50%;
+}
+/*----------------------------------------------------------------------------*/
+.sizeImageOther{ /*  Tamaño de logo: */
+  margin-bottom: 5%;
+  width: 65%;
+  height: 65%;
+}
+/*----------------------------------------------------------------------------*/
+.textInput{ /* Caracteristicas visuales del boton login. */
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1% 6%;
+  margin-top: 5%;
+  font-size: 17px;
+  font: bold;
+}
+/*----------------------------------------------------------------------------*/
+.textInput:hover{ /* Caracteristicas visuales del boton login. */
+  color: white;
+  border-color: white;
+  background-color: black;
+}
+/*----------------------------------------------------------------------------*/
+.inputBox{ /* Cajas de ingreso de datos: login */
+  margin: 5% 25%;
+  font-size: 17px;
+  text-align: left;
+}
+/*----------------------------------------------------------------------------*/
+.SubinputBox{ /* Cajas de ingreso de datos: login */
+  margin: 25px 0px;
+  font-size: 17px;
+  text-align: left;
+}
+/*------------------------------------------------------------------------[ID]*/
+#bar{
+  display: block;
+  visibility: visible;
+}
+/*----------------------------------------------------------------------------*/
+#login{
+  font: bold;
+  color: #F95401;
+}
+#login:hover{
+  font: bold;
+  color: white;
+}
+
+/*[Clases]======================================================================[detallesApp]*/
+.itemText{
+  margin-left: 15%;
+}
+/*----------------------------------------------------------------------------*/
+.sizeImageLogoDet{ /*  Tamaño de logo: */
+  margin-top: 4%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 50%;
+}
+/*----------------------------------------------------------------------------*/
+.sizeImageOtherDet{ /*  Tamaño de logo: */
+  margin-bottom: 4%;
+  width: 65%;
+  height: 65%;
+}
+/*[Clases]======================================================================[selectProfile]*/
+.icons{ /* Caracteristicas de iconos */
+  margin-right: 2%;
+  margin-top: 1%;
+}
+/*----------------------------------------------------------------------------*/
+.sizeColProfile{
+  margin-left: 25;
+  margin-right: 25%;
+}
+/*----------------------------------------------------------------------------*/
+.backgroundButton{
+  margin-bottom: 15px;
+  color: black;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+.backgroundButton:selection{
+  border-color: #2196f3;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.backgroundButton:hover{
+  border-color: #2196f3;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+/*----------------------------------------------------------------------------*/
+.textBlack{
+  opacity: 1;
+  color: black;
+  font: bold;
+}
+/*----------------------------------------------------------------------------*/
+.text{
+  align-items: center;
+  text-align: center;
+}
+/*[Clases]======================================================================[mainMenu]*/
+.infoExt{
+  background-color: black;
+  opacity: 0.8;
+}
+/*----------------------------------------------------------------------------*/
+.textTitle{
+  opacity: 1;
+  font-size: 18px;
+  text-shadow: black 0.2em 0.2em 0.3em;
+}
+/*----------------------------------------------------------------------------*/
+.textButton{
+  align-items: center;
+  text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+.centerItem{
+  align-items: center;
+  text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+.backgroundButtonSwiper{
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+/*----------------------------------------------------------------------------*/
+.swiperDiv{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/*----------------------------------------------------------------------------*/
+.backgroundTitle{
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-bottom: 48px;
+}
+/*----------------------------------------------------------------------------*/
+.boxTest{
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 200px 0px;
+}
+/*----------------------------------------------------------------------------*/
+.backgroundDiv{
+  background-image: url("image/21.jpg");
+  background-color: orange;
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+/*[Clases]======================================================================[dataProfile]*/
+.textCol{
+  text-align: center;
+  text-decoration: none;
+  font: white;
+  font: bold;
+  font-size: 17px;
+  padding: 15px 25px;
+}
+/*----------------------------------------------------------------------------*/
+.tableData{
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  align-items: center;
+  text-align: center;
+}
+.tableData:selection{
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.tableData:hover{
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+/*[Clases]======================================================================[dataProfile]*/
+.list-maintenance{
+  margin-left: 25px;
+}
+.dialog-input{
+  color: black;
+}
+.dialog-input-value{
+  color: black;
+}

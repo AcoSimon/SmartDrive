@@ -1,0 +1,317 @@
+<div class="page" data-name="dataProfile">
+    <!-- =============================================================================================================== -->
+    <div class="navbar color-theme-red">
+        <!-- Barra de navegacion -->
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <!-- iconFunction: back -->
+                <a href="#" class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Back</span>
+                </a>
+            </div>
+            <div class="title">Informes:</div>
+        </div>
+    </div>
+    <!-- End navBar -->
+    <!-- =============================================================================================================== -->
+    <div class="toolbar toolbar-bottom-md tabbar color-theme-red">
+        <div class="toolbar-inner">
+            <a href="#tab-1" class="tab-link tab-link-active">Info.</a>
+            <a href="#tab-2" class="tab-link">Cons.</a>
+            <a href="#tab-3" class="tab-link">Dist.</a>
+            <a href="#tab-4" class="tab-link">Autn.</a>
+        </div>
+    </div>
+    <!-- =============================================================================================================== -->
+    <!-- Contenido de la pagina: -->
+    <div data-background="image/05.jpg" class="page-content sizeBackground lazy">
+        <center>
+            <!-- =============================================================================================================== -->
+            <div class="tabs-swipeable-wrap">
+                <div class="tabs">
+                    <div id="tab-1" class="tab tab-active">
+                        <div class="block">
+
+                            <h2 class="backgroundTitle">
+                                <p class="textTitle">Información del vehiculo:</p>
+                            </h2>
+
+                            <div class="elevation-16 infoExt textCol">
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Marca:
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="marca" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData text">
+                                    <div class="col-50">
+                                        Modelo:
+                                    </div>
+                                    <div class="col-50 text">
+                                         <button id="modelo" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Año de fabricacion:
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="año" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Matricula:
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="matricula" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Deposito: (Litros)
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="deposito" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Odometro: (Km)
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="odometro" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tab-2" class="tab">
+                        <div class="block">
+                            <h2 class="backgroundTitle">
+                                <p class="textTitle">Consumos:</p>
+                            </h2>
+
+                            <div class="elevation-16 infoExt textCol">
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Cantidad abastecida:
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="recarga" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Valor de la recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        <button id="precio" class="button open-prompt"><p class="text textWhite textButton">---</p></button>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Fecha de ultima recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="block">
+                                <h2 class="backgroundTitle">
+                                    <p class="textTitle">Consumo promedio:</p>
+                                </h2>
+
+                                <div class="elevation-16 infoExt textCol">
+
+                                    <div class="row no-gap tableData">
+                                        <div class="col-50">
+                                            Cant. promedio abastecida:
+                                        </div>
+                                        <div class="col-50">
+                                            ---
+                                        </div>
+                                    </div>
+
+                                    <div class="row no-gap tableData">
+                                        <div class="col-50">
+                                            Costo promedio de la recarga:
+                                        </div>
+                                        <div class="col-50">
+                                            ---
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="tab-3" class="tab">
+                        <div class="block">
+                            <h2 class="backgroundTitle">
+                                <p class="textTitle">Distancias recorridas:</p>
+                            </h2>
+
+                            <div class="elevation-16 infoExt textCol">
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Dist. recorrida en total:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Desde la ultima recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Ultimo viaje:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Distancia promedio:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <h2 class="backgroundTitle">
+                                <p class="textTitle">Velocidades promedio:</p>
+                            </h2>
+
+                            <div class="elevation-16 infoExt textCol">
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Velocidad max.:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Velocidad min.:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Vel. promedio final:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="tab-4" class="tab">
+                        <div class="block">
+
+                            <h2 class="backgroundTitle">
+                                <p class="textTitle">Autonomia:</p>
+                            </h2>
+
+                            <div class="elevation-16 infoExt textCol">
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Autonomia promedio:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Aut. ultima recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Mayor autonomia por recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Menor autonomia por recarga:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+                                <div class="row no-gap tableData">
+                                    <div class="col-50">
+                                        Cant. de recargas realizada:
+                                    </div>
+                                    <div class="col-50">
+                                        ---
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Fin de tableData -->
+            </div>
+            <!-- Fin de block-->
+            <!-- =============================================================================================================== -->
+        </center>
+    </div>
+    <!-- Fin de contenido de la pagina.-->
+</div>
+<!-- Fin de contenido de la pagina: -->

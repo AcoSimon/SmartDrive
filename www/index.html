@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+                meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"
+    -->
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#ff5901">
+    <!-- Your app title -->
+    <title>SmartDrive</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css"/>
+
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body class="theme-dark">
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <span class="progressbar-infinite" id="progress"></span>
+        <div class="statusbar"></div>
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page">
+                <!-- page content -->
+                <div data-background="image/01.jpg" class="page-content sizeBackground lazy">
+                  <center> <!-- Centrar todo el contenido: -->
+                    <br>
+                    <img class="sizeImageLogo" src="image/logo.png" alt="logo SmartDrive">
+                    <img class="sizeImageOther" src="image/name01.png" alt="name App">
+                  <br>
+                  <div class="inputBox">
+                    <div class="inputBoxB">
+                      <div>E-mail:</div>
+                      <div>
+                        <input type="email" placeholder="Your e-mail">
+                      </div>
+                    </div>
+                    <div class="SubinputBox">
+                      <div>Password:</div>
+                      <div>
+                        <input type="password" placeholder="Your password">
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                    <!-- Link to another page -->
+                    <a class="textInput add elevation-16" href="/mainMenu/" data-view=".page-content"><b id="login">Login</b></a>
+                    <br><br> <!-- Espacio: x1 -->
+                    <h3 class="textBlack"><a href="/registerUser/">Crear cuenta</a></h5>
+                    <footer style="margin-top: 70px;">
+                      <p>Created by <a href="mailto:sma2347@gmail.com?Subject=Smart%20-%20Drive">Acosta Simón</a> </p>
+                    </footer>
+                  </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "name": "com.phonegap.helloworld",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "helloworld",
+    "dependencies": {
+        "cordova-plugin-geolocation": "4.0.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-geolocation": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    },
+    "devDependencies": {
+        "cordova-android": "^10.1.2"
+    }
+}
